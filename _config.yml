@@ -118,7 +118,7 @@ theme_config:
     grayout: true
   favicon:
     desktop:
-      url: /images/favicon.ico
+      url: /images/bocchi-favicon.ico
       gravatar: false
     android:
       url: /images/android-icon-192x192.png
