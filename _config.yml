@@ -4,8 +4,8 @@
 
 # Site
 title: f0rvxdd's place
-subtitle: '以銅、古和人為鏡，可以施放星爆氣流斬'
-description: ''
+subtitle: ''
+description: '以銅、古和人為鏡，可以施放星爆氣流斬'
 keywords:
 author: f0rvxdd
 language: en
@@ -100,6 +100,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cactus
 theme_config:
+  projects_url: http://github.com/Forever-CodingNoob
   social_links:
     github: https://github.com/Forever-CodingNoob
   nav:
