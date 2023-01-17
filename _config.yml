@@ -9,7 +9,7 @@ description: '以銅、古和人為鏡，可以施放星爆氣流斬'
 keywords:
 author: f0rvxdd
 language: en
-timezone: ''
+timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -32,7 +32,7 @@ skip_render:
 
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -101,6 +101,8 @@ ignore:
 theme: cactus
 theme_config:
   projects_url: http://github.com/Forever-CodingNoob
+  mathjax:
+    enabled: false
   social_links:
     github: https://github.com/Forever-CodingNoob
   nav:
@@ -115,6 +117,7 @@ theme_config:
     width: 50
     height: 50
     url: /images/bocchi.png
+    src: https://bocchi.rocks/
     gravatar: false
     grayout: true
   favicon:
@@ -127,6 +130,72 @@ theme_config:
     apple:
       url: /images/apple-icon-180x180.png
       gravatar: false
+  utterances:
+    enabled: true
+    repo: Forever-CodingNoob/Forever-CodingNoob.github.io
+    issue_term: title
+    label: utteranc
+    theme: github-dark
+
+# Markdown-it config
+# Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
+markdown:
+  preset: 'default' 
+  render:
+    html: true # Doesn't escape HTML content so the tags will appear as html.
+    xhtmlOut: false # Parser will not produce XHTML compliant code.
+    breaks: true # Parser produces `<br>` tags every time there is a line break in the source document.
+    linkify: true # Returns text links as text.
+    typographer: true # Substitution of common typographical elements will take place.
+    quotes: '“”‘’' # "double" will be turned into “single”, 'single' will be turned into ‘single’
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-deflist
+    - markdown-it-imsize
+    - markdown-it-mark
+    - markdown-it-regexp
+    - markdown-it-task-checkbox
+    - markdown-it-ruby
+    - markdown-it-collapsible
+    - name: markdown-it-container
+      options: success
+    - name: markdown-it-container
+      options: info
+    - name: markdown-it-container
+      options: warning
+    - name: markdown-it-container
+      options: danger
+    - name: markdown-it-container
+      options: spoiler
+    - markdown-it-deflist
+    - name: markdown-it-emoji
+      options:
+        shortcuts: {}
+    - name: '@renbaoshuo/markdown-it-katex'
+      options:
+        skipDelimitersCheck: true
+  anchors:
+    # Minimum level for ID creation. (Ex. h2 to h6)
+    level: 2
+    # A suffix that is prepended to the number given if the ID is repeated.
+    collisionSuffix: ''
+    # If `true`, creates an anchor tag with a permalink besides the heading.
+    permalink: false
+    # Class used for the permalink anchor tag.
+    permalinkClass: header-anchor
+    # Set to 'right' to add permalink after heading
+    permalinkSide: 'left'
+    # The symbol used to make the permalink
+    permalinkSymbol: ¶
+    # Transform anchor to (1) lower case; (2) upper case
+    case: 0
+    # Replace space with a character
+    separator: '-'
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

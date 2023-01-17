@@ -12,15 +12,32 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@renbaoshuo/markdown-it-katex": "^2.0.2",
     "hexo": "^6.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-markdown-it": "github:hexojs/hexo-renderer-markdown-it",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3",
+    "katex": "^0.16.4",
+    "markdown-it": "^13.0.1",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-collapsible": "^1.0.0",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-emoji": "^2.0.2",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-ins": "^3.0.1",
+    "markdown-it-mark": "^3.0.1",
+    "markdown-it-regexp": "^0.4.0",
+    "markdown-it-ruby": "^0.1.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-task-checkbox": "^1.0.6"
   }
 }
