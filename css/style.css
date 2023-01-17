@@ -1196,6 +1196,26 @@ article .content .caption {
   text-align: center;
   font-size: 0.9em;
 }
+article .content .info {
+  padding-left: 10px;
+  background-color: rgba(52,152,219,0.3);
+  border-left: 4px solid #3498db;
+}
+article .content .success {
+  padding-left: 10px;
+  background-color: rgba(46,204,113,0.3);
+  border-left: 4px solid #2ecc71;
+}
+article .content .warning {
+  padding-left: 10px;
+  background-color: rgba(241,196,15,0.3);
+  border-left: 4px solid #f1c40f;
+}
+article .content .danger {
+  padding-left: 10px;
+  background-color: rgba(231,76,60,0.3);
+  border-left: 4px solid #e74c3c;
+}
 .posttitle {
   text-transform: none;
   font-size: 1.5em;
@@ -1297,12 +1317,13 @@ article .content .caption {
 #footer a:hover {
   color: #a6a4a4;
 }
-#footer .footer-left {
+#footer .footer-left,
+#footer .footer-middle {
   height: 20px;
   vertical-align: middle;
   line-height: 20px;
 }
-@media (min-width: 39rem) {
+@media (min-width: 42rem) {
   #footer {
     display: flex;
     flex-flow: row wrap;
@@ -1311,7 +1332,8 @@ article .content .caption {
     align-content: center;
     margin-bottom: 20px;
   }
-  #footer .footer-left {
+  #footer .footer-left,
+  #footer .footer-middle {
     align-self: flex-start;
     margin-right: 20px;
   }
