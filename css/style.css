@@ -1246,6 +1246,12 @@ article .content .danger {
     content: "|";
   }
 }
+.katex-display {
+  height: auto;
+  padding-bottom: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
 #archive .post-year {
   list-style-type: none;
 }
