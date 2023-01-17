@@ -136,6 +136,8 @@ theme_config:
     issue_term: title
     label: utteranc
     theme: github-dark
+  open_graph:
+    thumbnail_url: /images/thumbnail.jpg
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
