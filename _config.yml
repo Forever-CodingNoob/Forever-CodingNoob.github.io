@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -104,7 +104,12 @@ theme_config:
   mathjax:
     enabled: false
   social_links:
-    github: https://github.com/Forever-CodingNoob
+    - icon: github
+      link: https://github.com/Forever-CodingNoob
+    - icon: twitter
+      link: https://twitter.com/__f0rvxddddd__
+    - icon: discord
+      link: https://youtu.be/moZtoMP7HAA
   nav:
     home: /
     about: /about/
