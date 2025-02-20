@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="Abstract 在這篇文章，我簡要(?)介紹了113-1學期修的8門課程，並附上修這些課的心得。這些課程合計21學分(包含停修的3學分)，分別有：計算機結構、計算邏輯簡介、虛擬機器(VM)、高等編譯器設計、無線行動網路導論、程式語言：命令程式設計(PLIP)、桌球初級與以Excel進行資料分析。  (省流用)對於只想看課程心得而不想看廢話的人，以下是幾點我想事先說明的：  有些課程因為沒有公佈成">
+    <meta name="description" content="figure {     display: flex;     flex-direction: column;     margin: 1.5rem 0; }  figure &gt; img {     max-width: 90% !important; }  figure &gt; figcaption {     text-align: center;     padding-top: 0.6rem">
 <meta property="og:type" content="article">
 <meta property="og:title" content="113-1 台大資工大三上修課心得">
 <meta property="og:url" content="https://blog.forvkusa.csie.org/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/">
 <meta property="og:site_name" content="f0rvxdd&#39;s place">
-<meta property="og:description" content="Abstract 在這篇文章，我簡要(?)介紹了113-1學期修的8門課程，並附上修這些課的心得。這些課程合計21學分(包含停修的3學分)，分別有：計算機結構、計算邏輯簡介、虛擬機器(VM)、高等編譯器設計、無線行動網路導論、程式語言：命令程式設計(PLIP)、桌球初級與以Excel進行資料分析。  (省流用)對於只想看課程心得而不想看廢話的人，以下是幾點我想事先說明的：  有些課程因為沒有公佈成">
+<meta property="og:description" content="figure {     display: flex;     flex-direction: column;     margin: 1.5rem 0; }  figure &gt; img {     max-width: 90% !important; }  figure &gt; figcaption {     text-align: center;     padding-top: 0.6rem">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://blog.forvkusa.csie.org/images/thumbnail.jpg">
 <meta property="article:published_time" content="2025-02-19T20:32:11.000Z">
-<meta property="article:modified_time" content="2025-02-20T13:43:35.448Z">
+<meta property="article:modified_time" content="2025-02-20T15:46:18.003Z">
 <meta property="article:author" content="f0rvxdd">
 <meta property="article:tag" content="NTU">
 <meta property="article:tag" content="113-1">
@@ -217,7 +217,23 @@ p.spoiler {
   
 
   <div class="content e-content" itemprop="articleBody">
-    <h1>Abstract</h1>
+    <style>
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+
+figure > img {
+    max-width: 90% !important;
+}
+
+figure > figcaption {
+    text-align: center;
+    padding-top: 0.6rem;
+}
+</style>
+<h1>Abstract</h1>
 <p>在這篇文章，我簡要(?)介紹了113-1學期修的8門課程，並附上修這些課的心得。這些課程合計21學分(包含停修的3學分)，分別有：<a href="#計算機結構-CSIE3340">計算機結構</a>、<a href="#計算邏輯簡介-CSIE4111">計算邏輯簡介</a>、<a href="#虛擬機器-VM-CSIE5310">虛擬機器(VM)</a>、<a href="#高等編譯器設計-CSIE5054">高等編譯器設計</a>、<a href="#無線行動網路導論-EE4027">無線行動網路導論</a>、<a href="#程式語言：命令程式設計-PLIP-IM5065">程式語言：命令程式設計(PLIP)</a>、<a href="#桌球初級-PE2074">桌球初級</a>與<a href="#以Excel進行資料分析-通識A6-GenSys5023">以Excel進行資料分析</a>。</p>
 <div class="warning">
 <p>(省流用)對於只想看課程心得而不想看廢話的人，以下是幾點我想事先說明的：</p>
@@ -406,9 +422,7 @@ p.spoiler {
 <p>上課都會錄影並放上NTU COOL，也不會點名，所以修這課只要期中考與期末考(與可能會有的補考、模擬考)有出席就好了。</p>
 <p>整學期的課堂分為四種：</p>
 <ol>
-<li>由廖世偉講課。廖世偉上課都使用他自己做的 <s>(風格明顯的)</s> 投影片，而他講課時常逼逼扯扯一堆與當週主題無關的東西，很多演算法與概念他都只是草草帶過、照著投影片唸、或乾脆跳過不講，叫學生回去自己看，似乎只在意講自己想講的東西。當然，除了講課內容堪稱一絕，他親自編輯的投影片更是令人晶彥——每份都像使用PowerPoint 2003做出來再轉換成Google slides，且格式嚴重跑版的檔案。令我頭痛的除了直接用Calibri字體表示且有些字元根本無法顯示的數學式子，更還有一份<a target="_blank" rel="noopener" href="https://docs.google.com/presentation/d/1MRQfwcBxgPH2v3N-gDkVKQurbx_G--wASG_Qg-U7eoQ/edit?usp=sharing"><strong>大量文字疊在一起</strong>的投影片</a>。廖世偉在教到那份投影片時，甚至還自誇那裡面有他精心製作的動畫，但我在投影片裡看到的只有新出現的文字直接淡入並蓋在現有的文字上，而被蓋住的文字也沒有消失。我這裡截一張投影片，以防有人不知道我在說什麼：<br>
-<img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/compiler-1.png"><br>
-不是，教授，這樣誰能看懂上面在寫什麼？我有去向廖世偉反映這個問題。當時得到的回覆是「可能是格式跑掉了，之後會修改」，但那份投影片裡重疊的文字直到撰寫當下都還在，我不知道他到底修了什麼。此外，我也有向助教反映，他們只苦笑廖世偉做的投影片就是這樣，他們也沒法修改。學期初看到這種亂七八糟也無人可管的投影片時，我就幾乎決定要停修了。我在停修前得到的結論是：廖世偉教課很沒料，不該浪費時間聽他上課的。</li>
+<li>由廖世偉講課。廖世偉上課都使用他自己做的 <s>(風格明顯的)</s> 投影片，而他講課時常逼逼扯扯一堆與當週主題無關的東西，很多演算法與概念他都只是草草帶過、照著投影片唸、或乾脆跳過不講，叫學生回去自己看，似乎只在意講自己想講的東西。當然，除了講課內容堪稱一絕，他親自編輯的投影片更是令人晶彥——每份都像使用PowerPoint 2003做出來再轉換成Google slides，且格式嚴重跑版的檔案。令我頭痛的除了直接用Calibri字體表示且有些字元根本無法顯示的數學式子，更還有一份<a target="_blank" rel="noopener" href="https://docs.google.com/presentation/d/1MRQfwcBxgPH2v3N-gDkVKQurbx_G--wASG_Qg-U7eoQ/edit?usp=sharing"><strong>大量文字疊在一起</strong>的投影片</a>。廖世偉在教到那份投影片時，甚至還自誇那裡面有他精心製作的動畫，但我在投影片裡看到的只有新出現的文字直接淡入並蓋在現有的文字上，而被蓋住的文字也沒有消失。<a href="#fig1">Figure 1</a>就是其中一張這樣的投影片。<figure id="fig1"><img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/compiler-1.png"><figcaption>Figure 1: 抽象的投影片</figcaption></figure>不是，教授，這樣誰能看懂上面在寫什麼？我有去向廖世偉反映這個問題。當時得到的回覆是「可能是格式跑掉了，之後會修改」，但那份投影片裡重疊的文字直到撰寫當下都還在，我不知道他到底修了什麼。此外，我也有向助教反映，他們只苦笑廖世偉做的投影片就是這樣，他們也沒法修改。學期初看到這種亂七八糟也無人可管的投影片時，我就幾乎決定要停修了。我在停修前得到的結論是：廖世偉教課很沒料，不該浪費時間聽他上課的。</li>
 <li>由Jserv講課。這部份我沒去上課，也沒有看錄影，所以就不清楚了。不過我可以肯定的是Jserv的課比廖世偉的課遠遠值得去聽。</li>
 <li>由助教們講課。上課時助教們是使用他們與廖世偉合做的投影片。這些投影片大概是因為有助教監督內容與排版，比廖世偉自己做的投影片好讀且豐富多了。助教們幾乎是照著投影片唸，所以我猜不聽課(包含不看錄影)並只看投影片也能吸收助教課八成的內容。不過我每堂助教課(截至停修前)的錄影都有看就是了。老實說，我認為助教其實教得蠻淺的<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-box spoiler-6ce86">但考試考得不淺&gt;:(</span></span>，但至少能學到得比在廖世偉的課還要多。</li>
 <li>Guest lecture。這部份我也沒去聽，也沒有看錄影，所以也不清楚。</li>
@@ -619,8 +633,11 @@ to Discrete Math</li>
 </div>
 <p>這裡有篇Dcard上的課程心得。作者寫得十分完整，想省流看這個就好：<a target="_blank" rel="noopener" href="https://www.dcard.tw/f/ntu/p/255919163">https://www.dcard.tw/f/ntu/p/255919163</a></p>
 <h3 id="上課方式與內容">上課方式與內容</h3>
-<p>這門課有分上午班(英文)和下午班(中文)，我是修上午班。課程內容主要為教你如何使用Excel的functions。下圖是syllabus：<br>
-<img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/excel-1.png"></p>
+<p>這門課有分上午班(英文授課)和下午班(中文授課)，我是修上午班。課程內容主要為教你如何使用Excel的functions。<a href="#fig2">Figure 2</a>是我這班(英文班)的syllabus：</p>
+<figure id="fig2">
+    <img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/excel-1.png">
+    <figcaption>Figure 2: Excel課(英文班)的syllabus</figcaption>
+</figure>
 <p>上課方式為投影片搭配excel實際操作，不錄影，不看出席。投影片會事前放在COOL，每個單元都有一份。老師的英文是蠻標準的美國口音，完全不用擔心聽不懂老師的口音。</p>
 <p>老師鼓勵學生利用NTU COOL討論區發問，通常在有學生發問後，老師會等幾天才做回覆，讓有願意教別人或想拿<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">10\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">10%</span></span></span></span>討論成績的學生有機會回答。老師的回覆非常認真，會先引導學生思考excel運作邏輯才給出答案。當然也可以實際去現場問問題，他也會很認真回答你。</p>
 <h3 id="作業-6">作業</h3>
@@ -635,8 +652,11 @@ to Discrete Math</li>
 <p>題目難度跟與考的細度： <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>作業基礎題</mtext><mo>&lt;</mo><mtext>期考</mtext><mo>≪</mo><mtext>作業進階題</mtext></mrow><annotation encoding="application/x-tex">\text{作業基礎題}\lt\text{期考}\ll \text{作業進階題}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord text"><span class="mord cjk_fallback">作業基礎題</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7224em;vertical-align:-0.0391em;"></span><span class="mord text"><span class="mord cjk_fallback">期考</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≪</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord text"><span class="mord cjk_fallback">作業進階題</span></span></span></span></span></p>
 </div>
 <h3 id="分數">分數</h3>
-<p>這是NTU COOL顯示的期考與總成績分佈<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-box spoiler-6ce86">(順便偷偷炫耀我的成績)</span></span>:<br>
-<img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/excel-2.png"></p>
+<p><a href="#fig3">Figure 3</a>展示了NTU COOL顯示的期考與總成績分佈<span class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-box spoiler-6ce86">(順便偷偷炫耀我的成績)</span></span>。老實說，我不太理解為何期中與期末考的班平均這麼低。我猜從電資學院裡隨便抓一個同學來修，他都可以拿到A字頭的等第。</p>
+<figure id="fig3">
+    <img src="/2025/02/19/113-1-%E5%A4%A7%E4%B8%89%E4%B8%8A%E4%BF%AE%E8%AA%B2%E5%BF%83%E5%BE%97/excel-2.png">
+    <figcaption>Figure 3: Excel課(英文班)的期中考、期末考與總成績分佈</figcaption>
+</figure>
 <p>以下則是總成績組距。看得出來對大部分修這門課的同學來說，這課一點都不甜：</p>
 <table>
 <thead>
