@@ -104,6 +104,8 @@ theme_config:
   mathjax:
     enabled: false
   social_links:
+    - icon: mail
+      link: mailto:b11902015@csie.ntu.edu.tw
     - icon: github
       link: https://github.com/Forever-CodingNoob
     - icon: twitter
