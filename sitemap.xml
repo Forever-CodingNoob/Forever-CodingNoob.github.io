@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.forvkusa.csie.org/search/</loc>
+    <loc>https://blog.forvkusa.csie.org/tags/</loc>
     
     <lastmod>2025-09-05</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.forvkusa.csie.org/tags/</loc>
+    <loc>https://blog.forvkusa.csie.org/search/</loc>
     
     <lastmod>2025-09-05</lastmod>
     
