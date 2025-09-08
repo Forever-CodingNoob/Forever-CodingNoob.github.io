@@ -105,7 +105,7 @@ theme_config:
     enabled: false
   social_links:
     - icon: mail
-      link: mailto:b11902015@csie.ntu.edu.tw
+      link: mailto:b11902015[at]csie.ntu.edu.tw
     - icon: github
       link: https://github.com/Forever-CodingNoob
     - icon: twitter
