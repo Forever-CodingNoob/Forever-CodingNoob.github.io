@@ -14,8 +14,9 @@ timezone: 'Asia/Taipei'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.forvkusa.csie.org/
-permalink: :year/:month/:day/:title/
+permalink: posts/:title/
 permalink_defaults:
+  lang: tw
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -141,11 +142,24 @@ theme_config:
       url: /images/apple-icon-180x180.png
       gravatar: false
   utterances:
-    enabled: true
+    enabled: false
     repo: Forever-CodingNoob/Forever-CodingNoob.github.io
     issue_term: title
     label: utteranc
     theme: github-dark
+  giscus:
+    enabled: true
+    repo: Forever-CodingNoob/Forever-CodingNoob.github.io
+    repo_id: R_kgDOHJvFYA
+    category: Announcements
+    category_id: DIC_kwDOHJvFYM4C27ej
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: noborder_dark
+    lang: en
   open_graph:
     thumbnail_url: /images/thumbnail.jpg
   highlight: monokai
