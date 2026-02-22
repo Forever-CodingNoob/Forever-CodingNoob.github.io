@@ -1,10 +1,3 @@
-.spoiler {
-  display: unset !important;
-}
-body table {
-  width: auto;
-  align-self: center;
-}
 .inline {
   display: inline;
 }
@@ -448,6 +441,26 @@ body td {
 }
 .spoiler {
   display: unset !important;
+}
+.twocol {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.twocol-text {
+  flex: 1 1 auto;
+}
+.twocol-media {
+  flex: 0 0 30%;
+  margin: 0;
+}
+@media (max-width: 540px) {
+  .twocol {
+    flex-direction: column;
+  }
+  .twocol-media {
+    flex-basis: auto;
+  }
 }
 body table {
   width: auto;
