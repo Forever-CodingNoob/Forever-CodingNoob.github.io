@@ -141,6 +141,10 @@ theme_config:
     apple:
       url: /images/apple-icon-180x180.png
       gravatar: false
+  archive:
+    sort_updated: false
+  post:
+    show_updated: true
   utterances:
     enabled: false
     repo: Forever-CodingNoob/Forever-CodingNoob.github.io
@@ -163,6 +167,9 @@ theme_config:
   open_graph:
     thumbnail_url: /images/thumbnail.jpg
   highlight: monokai
+  theme:
+    name: "&#127797;cactus"
+    url: https://github.com/Forever-CodingNoob/hexo-theme-cactus-TC
 
 # Markdown-it config
 # Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
